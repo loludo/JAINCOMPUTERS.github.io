@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computers & Accessories - Alwar CCTV & Computer Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003087;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav {
+            background-color: #005566;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .computers {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .computers h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #003087;
+        }
+
+        .computer-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .computer-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .computer-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #003087;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .computer-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alwar CCTV & Computer Solutions</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cctv.html">CCTV Services</a>
+        <a href="computers.html">Computers</a>
+        <a href="quote.html">Get Quote</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="computers">
+        <h2>Computers & Accessories</h2>
+        <div class="computer-grid">
+            <div class="computer-card">
+                <h3>Desktops & Laptops</h3>
+                <p>High-performance systems for all needs.</p>
+            </div>
+            <div class="computer-card">
+                <h3>Monitors & Peripherals</h3>
+                <p>Quality screens, keyboards, and more.</p>
+            </div>
+            <div class="computer-card">
+                <h3>IT Support</h3>
+                <p>Setup and maintenance for your tech.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Contact Us: +91-1234567890 | info@alwarcctvcomputers.com</p>
+        <p>Serving Alwar, Rajasthan</p>
+    </footer>
+</body>
+</html>
